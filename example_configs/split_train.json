@@ -1,0 +1,48 @@
+{
+  "ycb-combinedsdf": {
+    "003_cracker_box_google_16k_textured_scale_1000": {
+      "fetch_gripper": [
+        "sdf_graspnum_0.npz",
+        "sdf_graspnum_1.npz",
+        "sdf_graspnum_2.npz",
+        "sdf_graspnum_3.npz",
+        "sdf_graspnum_4.npz",
+        "sdf_graspnum_5.npz",
+        "sdf_graspnum_6.npz",
+        "sdf_graspnum_7.npz",
+        "sdf_graspnum_8.npz",
+        "sdf_graspnum_9.npz",
+        "sdf_graspnum_10.npz",
+        "sdf_graspnum_11.npz",
+        "sdf_graspnum_12.npz",
+        "sdf_graspnum_13.npz",
+        "sdf_graspnum_14.npz",
+        "sdf_graspnum_15.npz",
+        "sdf_graspnum_16.npz",
+        "sdf_graspnum_17.npz",
+        "sdf_graspnum_18.npz",
+        "sdf_graspnum_19.npz",
+        "sdf_graspnum_20.npz",
+        "sdf_graspnum_21.npz",
+        "sdf_graspnum_22.npz",
+        "sdf_graspnum_23.npz",
+        "sdf_graspnum_24.npz",
+        "sdf_graspnum_25.npz",
+        "sdf_graspnum_26.npz",
+        "sdf_graspnum_27.npz",
+        "sdf_graspnum_28.npz",
+        "sdf_graspnum_29.npz",
+        "sdf_graspnum_30.npz",
+        "sdf_graspnum_31.npz",
+        "sdf_graspnum_32.npz",
+        "sdf_graspnum_33.npz",
+        "sdf_graspnum_34.npz",
+        "sdf_graspnum_35.npz",
+        "sdf_graspnum_36.npz",
+        "sdf_graspnum_37.npz",
+        "sdf_graspnum_38.npz",
+        "sdf_graspnum_39.npz"
+      ]
+    }
+  }
+}

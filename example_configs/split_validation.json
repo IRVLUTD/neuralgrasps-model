@@ -1,0 +1,13 @@
+{
+  "ycb-combinedsdf": {
+    "003_cracker_box_google_16k_textured_scale_1000": {
+      "fetch_gripper": [
+        "sdf_graspnum_40.npz",
+        "sdf_graspnum_41.npz",
+        "sdf_graspnum_42.npz",
+        "sdf_graspnum_43.npz",
+        "sdf_graspnum_44.npz"
+      ]
+    }
+  }
+}
