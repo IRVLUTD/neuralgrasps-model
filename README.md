@@ -23,7 +23,7 @@ environment (named `grasp-sdf`). Overall the core components are Python 3 and Py
 
 The project root should include an `experiments/` directory to store each
 individual experiment run's:
-- hyper-parameters  as a `specs.json` file
+- training hyper-parameters (epochs, learning rate etc) in a `specs.json` file
 - train, test, validation splits (as json files)
 -  model and optimizer checkpoints
 -  evaluation results
