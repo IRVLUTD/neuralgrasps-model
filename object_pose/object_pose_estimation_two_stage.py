@@ -52,7 +52,26 @@ def extract_idx_from_Z(experiment_dir, gripper: str, gnum: int):
         print("Gripper not found!!!!")
         return
     start_idx = grp_names.index(gripper)
-    return start_idx + gnum
+    return start_idx + gnum, start_idx
+
+def load_grasp_dataset_without_network(experiment_dir, object_name):
+    '''
+    experiment_dir: specific to the ycb object
+    '''
+    # object info
+    object_model = '%s_google_16k_textured_scale_1000' % object_name
+    path_to_norm_npz = os.path.join(DATA_SOURCE, object_model, "norm_params.npz")
+    data = np.load(path_to_norm_npz)
+    obj_scale = data['scale']
+    obj_offset = data['offset']
+    print('obj_scale', obj_scale)
+    print('obj_offset', obj_offset)
+    
+    # get graspit grasps
+    train_split = 'split_train.json'
+    graspit_grasps = get_graspit_grasps(experiment_dir, DATA_SOURCE, object_model, train_split)
+    return obj_scale, obj_offset, graspit_grasps
+    
 
 def load_sdf_network(experiment_dir, object_name):
     '''
